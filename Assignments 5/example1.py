@@ -1,14 +1,8 @@
-# 2. Write a program which contains one function ChkGreater() that accepts two numbers
-# and prints the greater number.
+# 1.Write a program which contains one lambda function which accepts one parameter and return
+# power of two. 
 
-num = int(input("enter a number"))
-num2 = int(input("enter a number"))
+num = int(input("Enter a number"))
 
-def ChkGreater(n1, n2):
-    if n1 > n2:
-        print(f"{num} Num 1 is Greater")
-    else:
-        print(f"{num2} Num 2 is Greater")
+power = lambda x : 2 ** x
 
-
-ChkGreater(num, num2)
+print(power(num))
